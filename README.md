@@ -1,18 +1,24 @@
-# Cardano CLI Starter Kit
+# Cardano Voltaire - SanchoNet - DEMETER.RUN Starter Kit - Release V0.1
 
-This starter kit shows how to execute common operations against the Cardano blockchain using the official command-line tool called `cardano-cli`.
+This starter kit was contributed by Alex Pestchanker, you can send any suggestions or PR to my github https://github.com/apestchanker/cardano-gov-sanchonet-starter-kit/tree/main (forked from Cardano CLI Tutorial Starter Kit by TXPIPE)
 
-## Dev Environment
+This starter kit shows how to test the different roles and functions on SanchoNET, using the  `cardano-cli`.
+If you want detailed information on SanchoNet you can go to: https://sancho.network/get-started
+If you want detailed information on CIP1694 you can go to: https://github.com/cardano-foundation/CIPs/tree/master/CIP-1694
 
-For running this starter kit you'll need access to a fully synced instance of a Cardano Node and the `cardano-cli` binary.
+## Environment
 
-You don't want to install the required components yourself, you can use [Demeter.run](https://demeter.run) platform to create a cloud environment with access to common Cardano infrastrcuture. The following command will open this repo in a private, web-based VSCode IDE with access to a shared Cardano Node and a pre-installed binary of the `cardano-cli`.
+For running this starter kit you'll need access to a fully synched instance of a SanchoNet Cardano Node and the `cardano-cli` binary. 
+The SanchoNet node latest version currently available at SanchoNet repo is 8.3.0-pre https://github.com/input-output-hk/cardano-node/releases
+The SanchoNet node latest version currently available at demeter.run as of this writting is 8.2.1-pre https://console.us1.demeter.run/assorted-sympathy-85d881/extension/cardano-nodes-v2
 
-[![Code in Cardano Workspace](https://demeter.run/code/badge.svg)](https://demeter.run/code?repository=https://github.com/txpipe/cardano-cli-starter-kit.git&template=typescript)
+If you don't want to install the required components yourself, you can use [Demeter.run](https://demeter.run) platform to create a cloud environment with access to common Cardano infrastructure. The following command will open this repo in a private, web-based VSCode IDE with access to a shared Cardano Node and a pre-installed binary of the `cardano-cli`.
+
+[![Code in Cardano Workspace](https://demeter.run/code/badge.svg)](https://demeter.run/code?repository=https://github.com/apestchanker/cardano-gov-sanchonet-starter-kit.git&template=typescript)
 
 ## Navigating the Starter Kit
 
-This starter kit is organized as interactive documentation where you can try out the commands as you move along in each topic.
+This starter kit is organized as interactive documentation, by using a Jupyter notebook, where you can try out the commands as you move along in each topic.
 
 ### Screen Layout
 
@@ -26,7 +32,7 @@ Whenever you see an example bash snippet as a step in any of the tutorials, you 
 
 Since you're running this starter kit from a _Cardano Workspace_, you already have access to the required infrastrcuture, such as the Cardano Node. All the required binaries are pre-installed by default, including the `cardano-cli`.
 
-The network to which you're connected (mainnet, preview, preprod, etc) is defined by your project's configuration, selected at the moment of creating your environment.
+The network to which you're connected (SanchoNet in this case) should be defined by your project's configuration, selected at the moment of creating your environment.
 
 To simplify the overall process, _Cardano Workspaces_ come already configured with specific environmental variables that allows you to connect to the node without extra step. These are the variables relevant for this particular tutorial:
 
